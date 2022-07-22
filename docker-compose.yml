@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  boilerplate_generator: &boilerplate_generator
+    build:
+      context: .
+      dockerfile: ./bp_gen/Dockerfile
+    image: boilerplate_generator
+    container_name: boilerplate_generator
+    volumes:
+      - .:/app:z
