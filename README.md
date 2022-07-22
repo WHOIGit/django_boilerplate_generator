@@ -13,5 +13,6 @@ An OS-agnostic environment for generating Django boilerplates
 3) Copy project files into new repository
 
 ```
-docker-compose build; docker-compose run --rm boilerplate_generator cookiecutter https://github.com/cookiecutter/cookiecutter-django
+docker-compose build; 
+docker-compose run --rm boilerplate_generator cookiecutter https://github.com/cookiecutter/cookiecutter-django
 ```
