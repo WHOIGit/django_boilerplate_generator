@@ -6,7 +6,7 @@ An OS-agnostic environment for generating Django boilerplates
 * [Cookiecutter Django](https://github.com/cookiecutter/cookiecutter-django)
 * [Docker/Docker-Compose](https://www.docker.com/)
 
-## Basic Wirkflow
+## Basic Workflow
 1) Build Boilerplate container
 2) Activate Django Cookiecutter, answer questions to generate project
 2) A folder is generated containing all related django/docker project files
